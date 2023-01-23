@@ -2,52 +2,54 @@ version: "2.0"
 nlu:
 - intent: admission_info
   examples: |
-    - b.tech admission
+    - b.e admission
+    - m.e admission
+    - phd admission
     - admission
     - adddmisin
     - admisin
-    - how to get admission at glbitm
-    - can i get admission at glbitm
+    - how to get admission at pulchowk campus
+    - can i get admission at pulchowk campus
     - what is admission procedure
     - admsn
     - admisssion
-    - what is the minimum percentage of getting admission in CSE
-    - what is the minimum percentage of getting admission in cse
-    - what is the minimum number of getting admission in CSE
-    - i want admission in glbitm
-    - admission is must in glbitm
-    - admission chaiye muje yaha
-    - admission k liye kya krna padega
-    - admission ka kya preocedure hai
+    - what is the minimum grade of getting admission in IOE
+    - what is the minimum grade of getting admission in ioe
+    - what is the minimum number of getting admission in Pulchowk Campus
+    - i want admission in pulchowk campus
+    - admission is must in pulchowk campus
+    - admission chaiyo malai
+    - admission ko lagi k garna parcha
+    - admission ko k procedure ho
     - what is the precedure for admission
     - how can I get admission
-    - admission in glbitm
+    - admission in pulchowk campus
     - ADMISSION
-    - dakhila milega iss college me
+    - yo college ma admission paincha
     - admission cutoff
-    - can  I get admission in glbitm after 12
+    - can  I get admission in pulchowk campus after 12
     - direct admission details
     - councelling  admission details
-    - how can i apply for admission after upsee
+    - how can i apply for admission after 12
     - can you help me with admission
     - could you please find me a link for admission
-    - ye admsiion ka kya chakkr hai
+    - yeha admission kasari garne hola
     - admission fees
-    - admission for btech
-    - admission for mtech
-    - admission for mba
-    - admission for mca
-    - admission in CSE branch
-    - admission criteria in glbitm
+    - admission for bachelors
+    - admission for masters
+    - admission for engineering bachelors
+    - admission for engineering masters
+    - admission in ioe
+    - admission criteria in pulchowk campus
     - admission for my son
     - admission for my daughter
     - admission form link want
     - need help in admission
     - can you feed me with admission details
-    - need admission details for btech
-    - admission details want for btech cse
+    - need admission details for be
+    - admission details want for bacheors ioe
     - how much you charge for admission
-    - admission milega kya
+    - admission paincha
     - I need admission in this college !!!
     - only admission !
     - admission please
@@ -63,26 +65,26 @@ nlu:
     - programs offered?
     - programs?
     - how many programs
-    - programs kitne karaye jate hai iss college me
+    - yo college ma kun kun program haru chan
     - how many programs do you have
     - details about programs taught
     - programs that has been offred
-    - programs kitne hai
+    - programs kati chan
     - how many programs i can presue
-    - kon konse programs krwate ho aap log
-    - programs me enroll hone ka kya procedure hai
+    - kun kun program ma padhna paincha
+    - programs me enroll huna ko lagi procedure k ho
     - programs programs
     - programsprogramsprogramsprograms
     - how many courses you provide
     - how many courses do u have
-    - total no of of courses in glbitm
+    - total no of of courses in pulchowk campus
     - all courses
     - every course in glbitm
-    - GLBITM all programs
-    - GLBITM all courses
-    - kitne types k coursees krwate ho aap
+    - Pulchowk Campus all programs
+    - Pulchowk Campus all courses
+    - kati ota type ko program haru chan
     - how many types of courses do you have
-    - course me enroll hona tha
+    - course ma enroll huna thiyo
     - courses how many
     - course course
     - course ?
@@ -90,9 +92,9 @@ nlu:
     - all courses details wanted
     - all courses detail
     - how many courses you give
-    - kitne course hote h GLBITM me
-    - how many courses does GLBITM have
-    - GLBITM course
+    - kati ota course chan Pulchowk Campus ma
+    - how many courses does Pulchowk Campus have
+    - pulchowk campus course
 
 
 - intent: branch_info
@@ -104,41 +106,41 @@ nlu:
     - branches
     - brnchs
     - brnch
-    - kitni branches hai
+    - kati ota branches chan
     - how many branchh
     - how do you classify branches
     - how can i know  about branches
     - how is branches
     - do you have branches
-    - how many branches you have in btech
-    - stream kitni hai
+    - how many branches you have in engineering
+    - stream kati ota cha
     - how many streams you have
     - streams details
     - branch info
     - branches information needed
-    - branches kitni hai
-    - stream kitni hai
-    - branches ka kya seen hai
+    - branches kati ota cha
+    - stream kati ota cha
+    - branches haru k k hun
     - i need information about branches
     - I was unable to get branch
-    - tell me about branches in cse
-    - how many stream does btech gave
-    - hom many stream btech provide
-    - btech me kitni branches hai
-    - btechh me kitni streams hai
-    - btech how many branches
+    - tell me about branches in pulchowk
+    - how many stream does engineering gave
+    - hom many stream bachelors provide
+    - b.e ma kati ota branches chan
+    - be ma kati ota branches chan
+    - bachelors how many branches
     - do you fetch branch details
     - could you please give me branch details
     - can you help me with branch info
     - can you help with stream information
-    - to kitni branches hai bhyii
-    - straam ke info milegi muje
-    - do you have cse stream in btech
-    - can you tell me about ec branch
-    - branches bata kitni h
+    - kati chan ta branches
+    - straam ko info paincha
+    - do you have che stream in btech
+    - can you tell me about computer engineering
+    - branches haru k k hun
     - any new branch update
     - any new stream update
-    - kitni sakkhaye hai aapki
+    - kati ota bishaya haru padhai hunchan
     - so many branchs ?
     - bunchess
     - no of branches you have ?
@@ -191,11 +193,21 @@ nlu:
      - fees
      - fee
      - fees
-     - what is the fees for B.tech(CSE)
-     - what is the fees for B.tech(ECE)
-     - what is the fees for B.tech(ME)
-     - what is the fees for B.tech(IT)
-     - what is the fees for B.tech(CE)
+     - what is the fees for B.E(Computer)
+     - what is the fees for B.E(Civil)
+     - what is the fees for B.E(Electrical)
+     - what is the fees for B.E(Mechanical)
+     - what is the fees for B.E(Electronics and Communication)
+     - what is the fees for B.E(Aerospace)
+     - what is the fees for B.E(Architecture)
+     - what is the fees for B.E(Chemical)
+     - what is the fees for M.E(Civil)
+     - what is the fees for M.E(Electrical)
+     - what is the fees for M.E(Mechanical)
+     - what is the fees for M.E(Electronics and Communication)
+     - what is the fees for M.E(Architecture)
+     - what is the fees for M.E(Science and Humanities)
+     - what is the fees for Ph.D
      - fee structure for me
      - fee structure me
      - fee me
@@ -208,26 +220,30 @@ nlu:
      - what is the fees of college
      - wht is your college fees
      - wht is colg fee
-     - fee structure for cse
-     - fee structure cse
-     - fee cse
-     - fees cse
-     - cse fees
-     - fee structure for it
-     - fee structure it
-     - fee it
-     - fees it
-     - it fees
-     - fee structure for ece
-     - fee structure ece
-     - fee ece
-     - fees ece
+     - fee structure for pulchowk
+     - fee structure ioe
+     - fee ioe
+     - fees pulchowk
+     - bachelors fees
+     - masters fees
+     - fee structure for bachlelors
+     - fee structure bachlors
+     - fee be
+     - fees masters
+     - me fees
+     - fee structure for aerospace
+     - fee structure engineering
+     - fee bct
+     - fee bae
+     - fee bme
+     - fee bce
+     - fees 
      - ece fees
-     - fee structure for ce
-     - fee structure ce
-     - fee ce
-     - fees ce
-     - ce fees
+     - fee structure for be
+     - fee structure 
+     - fee computer
+     - fees bachelors
+     - civil fees
      - hostel_fee
      - hostel_fees
      - hostel fee
@@ -237,18 +253,18 @@ nlu:
      - hstl fees
      - hostl fees
      - hostel fees
-     - fees ka kya seen hai
-     - what is the fees of MBA
-     - Mba fees batao
-     - MCA fees
-     - mtech dees
-     - dees batao
-     - mba fees
-     - mbaa fees
+     - fees kati ho
+     - what is the fees of Masters
+     - Masters ko fees bhannus
+     - Me fees
+     - me dees
+     - dees bhannus
+     - fees kati
+     - mee fees
      - what is the fees structure of anyy progam
      - fees structire
-     - fees kitni jama hoti hai
-     - abki baar fees kitni jma hoga
+     - fees kati ho tirne
+     - total fees kati ho
      - fees modes
      - modes of fees payment
 
@@ -262,36 +278,36 @@ nlu:
     - hosyyel
     - hostell
     - where is hostel
-    - glbitm has hostel
+    - pulchowk campus has hostel
     - how many rooms does hostel has
     - hostel mess food
     - hostel details
-    - hostel me kaisa khana milta hai
-    - hostel life at glbitm
-    - hostel andr se kaisa hai
-    - hotel kaisa hai
+    - hostel ma kasto khana paincha
+    - hostel life at pulchowk campus
+    - hostel bhitra kasto cha
+    - hotel ksto cha
     - how is hostel
     - boys hostel how
     - how is boys hostel
     - hostel has play ground
     - hostel ??
     - hostel
-    - hostel kaisa hai
+    - hostel ramro cha
     - hostel timing for girls
     - how was boys hostel
     - how was boy hastel
     - how was girls hostel
     - how the hostels are diffrent
-    - does glbitm have diffrent hostel for boys and girls
+    - does pulchowk campus have diffrent hostel for boys and girls
     - girls and  boy hostel
-    - girls boys ka hostel alag alag h kya
-    - ladka ladki alag alag rhe hai hostel me ?
+    - girls boys ko hostel chuttai cha
+    - kta keti ko chuttai cha hostel
     - hostel is safe ?
     - is hostel safe for girls
     - hostel punishments
     - hostel mess food quality
     - hostel is very good
-    - Chatravaas kaisa hai college parisar ka
+    - Chatravaas kaisa hai college parisar kasto cha college ko
     - is there any medical facility in hostel
     - hospital in hostel
     - hostel medical assistance
@@ -304,7 +320,7 @@ nlu:
     - do hostel have its own canteen
     - hostel room size
     - hostel details including area
-    - hostel ke dal kaisi hai
+    - hostel ko khana mitho cha
     - hostel holidays
    
 

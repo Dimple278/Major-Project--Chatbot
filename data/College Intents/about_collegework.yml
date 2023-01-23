@@ -1,98 +1,69 @@
 version: "2.0"
 
 nlu:
-- intent: forms
+- intent: entrance
   examples: |
     - can I get from
     - where can I get forms
     - do you have  any form
     - give me forms
-    - Form No. S- 52
-    - Alumni Membership Form
-    - Form No. S- 51
-    - No Dues Form
-    - S_11- Re- Ex- student
+    - entrance form
+    - ioe entrance form
+    - i need entrance form
+    - entrance form chaiyo
+    - entrance form kata paincha
     - Registration Form
-    - Form S- 39
-    - Form No. S- 27
-    - Form No. S- 26
-    - Bank Challan Form
-    - Form S-26
-    - Permission for participating in TF- Cult- sports
-    - Form S-29
-    - Form S-28
-    - Form S-27
-    - Form No. S2
-    - Income Tax Rebate
-    - Form No. S 46
-    - Indemnity Form
-    - Form No. S-18
-    - Refund/ Adjust Excess Amount
-    - Application for Financial Assistance from Benevolent Fund
-    - Form No. 2
+    - when is entrance
+    - ioe entrance date
+    - entrance kahile ho
+    - entrance syllabus
+    - campus entrance syllabus
+    - what is topic in exam
+    - exam syllabus
+    - entrance exam syllabus
+    - entrance help
+    - syllabus
+    - entrance date when
+    - how to pass entrance
+    - kasari pass garne entrance
+    - how to pass entrance
+    - Refund entrance amount
+    - Application for Entrance Exam
+    - form for bachelors
+    - form for masters
     - Application For Providing Tution Fee Details
-    - Form No. S54
-    - Transfer Certificate
-    - Form No. S 53
-    - Provisional Certificate
-    - Form No. S 52
-    - Alumni Membership Form
-    - Form No. S 51
-    - No Dues Form
-    - Form No. S 38
-    - Hostel Registration Form
-    - Form No. S 34
-    - Undertaking by Parents
-    - Form No. S 32
-    - Application for Collection of Pending Degrees or Marksheets
-    - Form No. S 31
-    - Discrepancy in Marksheet
-    - Form No. S 30
-    - Hostel Admission Withdrawal
-    - Form No. S 25
-    - Student Appear in Sessional Pre Univ. Exam
-    - Form No. S 24
+    - Application to join college
+    - certificates required 
+    - entrance location
+    - exam kata ho
+    - where is entrance exam
+    - entrance exam location
+    - exam location where
+    - mistake in entrance form
+    - how to pass entrance exam
+    - form withdrawal
     - Feedback Form
-    - Form No. S 23
-    - Revised Hostel Security Refund
-    - Form No. S 22
-    - Form of Reward for Securing 75% Above Marks
-    - Form No. S 19
+    - Form of minority
+    - female quota entrance
     - Final Academic Fee Installment
-    - Form No. S 14
-    - Application for HTL Admission Old Students
-    - Form No. S 12
+    - quota what
+    - available quota in entrance
+    - how to apply for quota
     - Branch Change
-    - Form No. S 17
-    - Hostel Withdrawal Mid Sem 33
-    - Form No. S 14
-    - Application for HTL Admission Old Students
-    - Form No. S 12
-    - Branch Change
-    - Form No. S 10
-    - Railway Concession Form
-    - Form No. S 3
-    - Education Loan
-    - Form No. S 1
-    - Bonafide Certificate
-    - Form S-29
-    - Form S-26
-    - Permission for participating in TF- Cult- sports
-
 
 - intent: alumini
   examples: |
     - alumini
     - almuni
     - alamuni
-    - what is AAA
+    - what is alumini association 
     - aaa
-    - about AAA
+    - about Society of Alumni of IOE, Pulchowk Campus
     - about alumini
     - about alumini association
     - tell me about alumini association
-    - glbitm alumini
-    - AAA
+    - pulchowk campus alumini
+    - Alumini Association Pulchowk Campus
     - what is alumini association
     - do you have any alumini page
     - who are alumini
@@ -105,24 +76,24 @@ nlu:
     - where is alumini portal
     - is there any portal for alumini
     - how is alumini portal
-    - alumini k liye kya kia hai
+    - alumini ko lagi kata jani
     - special for alumini
     - ALUMINI
     - Alumini
     - show alumini
-    - glbitm Alumni Association
-    - glbitm alumini association kya hai
-    - what is glbitm Alumni Association
+    - pulchowk campus Alumni Association
+    - pulchowk campus alumini association k ho
+    - what is pulchowk campus Alumni Association
     - aluini what
     - alumini what was
     - show me alumini
     - what have you done for alumini
     - anything for alumini ?
     - alumini ???
-    - alumini kon hote hai
-    - alumini ka kya scene hai
+    - alumini ko hun
+    - alumini ko lagi k cha
     - is there anything for alumini
-    - kya kaam kiye ho alumini k liye
+    - alumini ko lagi kehi kam cha
     - what are alumini
     - is passout is alumini
     - yearwise alumini
@@ -135,46 +106,46 @@ nlu:
 - intent: career
   examples: |
     - i want job
-    - jobs at glbitm
-    - i want to build career at glbitm
+    - jobs at pulchowk campus
+    - i want to build career at pulchowk campus
     - carrer
     - career portal
     - job in your college
     - job openning for staff
-    - career at glbitm
-    - glbitm job
+    - career at pulchowk campus
+    - pulchowk campus job
     - about jobs
     - abbout career
-    - about career at glbitm
-    - about glbitm jobs
+    - about career at pulchowk campus
+    - about pulchowk campus jobs
     - job
     - jobs
     - JOOBS
-    - jobss glbitm
-    - jobs glbitm
+    - jobss pulchowk campus
+    - jobs pulchowk campus
     - job for me
-    - teaching job at glbitm
+    - teaching job at pulchowk campus
     - helping  staaf job
-    - job for tgt
+    - job for assistant
     - teacher vacany
     - open job vacancy
     - teacher vacancy
-    - i want to become teacher in glbitm
-    - want job at glbitm
-    - need job at glbitm
-    - need job at g l bajaj engineering college
+    - i want to become teacher in pulchowk campus
+    - want job at pulchowk campus
+    - need job at pulchowk campus
+    - need job at pulchowk engineering college
     - full time jobs
     - part time jobs
-    - naukri at glbitm
-    - naukri milegi apke college me ?
+    - job at pulchowk campus
+    - hajur ko college ma jagir paincha ?
     - is there any vacancy for teacher ?
     - is there any job vacancy
     - show me job profiles
     - show the latest jobs
     - latest job
     - new job opeining
-    - jobs hai ?
-    - meri naukri lag jayagi ?
+    - jobs cha ?
+    - maile jagir pauchu?
     - job portal
     - carrer portall
     - jobs portals
@@ -214,19 +185,19 @@ nlu:
     - name of student counsel
     - student counsellor
     - student counselling
-    - is there any cell for student mental health
+    - is there any help for student mental health
     - student counseling cell
-    - tell me about counseling cell
+    - tell me about counseling facility
     - about student counseling
     - student counseler
     - student counceler
     - name of student counceler
     - name of student counsellor
     - student counsellor
-    - contact details for ankila juneja
-    - ankita juneja
-    - student counsellor ankita juneja contact  info
-    - ankita juneja email id
+    - contact details for student counsellor
+    - counselling
+    - student counsellor contact  info
+    - student counsellor email id
     - Im not feeling cheerful
     - can I have contact of student counsellor
     - where is student counsellor
@@ -237,62 +208,59 @@ nlu:
 
 - intent: antiragging
   examples: |
-    - ragging hoti h na ?
+    - ragging huncha ?
     - ragging
     - Ragging
     - ragggingg
     - I had be ragged
-    - antiragging cell
+    - antiragging policy
     - role of antiragging cell
     - what is antiragging cell
     - what is raaging
-    - tell me about antiragging cell of glbitm
+    - tell me about antiragging policy of pulchowk campus
     - antiragging head info
     - who is antiragging head
     - who is ragging head
     - leader of ragging
-    - does ragging happen in glbitm
-    - glbitm ragging
-    - glbitm ragging cases
+    - does ragging happen in pulchowk campus
+    - pulchowk campus ragging
+    - pulchowk campus ragging cases
     - rules of breaking ragging laws
-    - antiragging cell no
-    - is glbitm is ragging free
+    - is pulchowk campus is ragging free
     - antiragging comittee
-    - antiragging squad
-    - is glbitm is free form ragging
+    - antiragging club
+    - is pulchowk is free form ragging
     - does students are safe from ragging
     - law against ragging
     - fine for ragging
-    - ragging  k niyam
-    - ragging ka kya scene hai
+    - ragging  ko niyam
     - what actions taken against ragging
     - antiragging information
     - about antiragging
-    - tell me about antiragging cell
-    - tell me about antiragging squad
+    - tell me about antiragging in campus
+    - tell me about antiragging 
     - punishment for ragging
     - punishment for ragging in campus
     - law against campus ragging
-    - ragging krne ke kya saja hai
-    - ragging krne ke kya saza hai
+    - ragging ko k sajaya huncha
     - what is the punishment for ragging
     - how ragging takes place
     - i want to do ragging
     - dont ragging
     - is ragging is a criminal offence
     - ragging crime
-    - ragging in glbitm is crime
+    - ragging in pulchowk campus is crime
     - ragginf commeteee
     - ragginf commettee
-    - glbitm ragging squad
-    - glbitm main ragging k niyam
+    - pulchowk campus ragging 
+    - campus ma ragging huncha
 
 - intent: medical
   examples: |
     - what are the medical facilities provided
-    - what is medcial facilities at glbitm
-    - medical facilities at glbitm
-    - medical assurance at glbitm
+    - what is medcial facilities at pulchowk campus
+    - medical facilities at campus
+    - medical assurance at pulchowk campus
     - medical health contact no
     - doctor contact no
     - medical in college
@@ -300,31 +268,31 @@ nlu:
     - doctor
     - need medical help
     - doctor contact no
-    - doctor se milna hai
+    - college ma doctor cha
     - need paracetamol
-    - need vicks
+    - need cetamol
     - need first aid
     - where can i get first aid
-    - first aid in glbitm
-    - need emergency help in glbitm
+    - first aid in pulchowk
+    - need emergency help in pulchowk campus
     - what is consultation duration
     - tell me consultation duration
     - consultation duration for checkup
-    - medial assistance at glbitm
+    - medial assistance at pulchowk campus
     - medical insurance for students
     - I need kidney transplant
     - I need medical help
     - i need medical assurance
     - does this college provide medical insurance
-    - medical insurance at glbitm
+    - medical insurance at pulchowk
     - medical cover at glbitm
-    - medical facilities for glbitm
-    - medical glbitm
-    - medical facilities for glbitm
-    - medical facilities in glbitm
-    - show me medical helpline of glbitm
+    - medical facilities for pulchowk campus
+    - medical pulchowk campus
+    - medical facilities for pulchowk campus
+    - medical facilities in pulchowk campus
+    - show me medical helpline of pulchowk campus
     - tell me medical helpline
-    - tell me doctor information of glbitm
+    - tell me doctor information of campus
     - do you have any medical facilities
     - Im suffering from fever
     - Im suffering from headache
@@ -346,15 +314,15 @@ nlu:
     - i need brochure
     - give me brochure
     - broucher give me
-    - brochure ka kya scene hai
-    - brouchure milega ?
+    - brochure kata paincha hola
+    - brouchure paincha ?
     - can you show me brochure
-    - show me brochure of glbitm
+    - show me brochure of pulchowk campus
     - show me brochure of college
     - show me brochure for admission
-    - show me detailed brochure of glbitm
-    - glbitm brochure
-    - about glbitm brochure
+    - show me detailed brochure of pulchowk campus
+    - pulchowk brochure
+    - about pulchowk campus brochure
     - what is in the brochure
     - brochure content
     - i want to read brochure
@@ -362,14 +330,14 @@ nlu:
     - we need brochure
     - do you have brochure
     - brouchure
-    - brochure k liye kha jana h
+    - brochure ko lagi kata janu parcha
     - downloading brochure
     - where i can find brochure
     - do we reealy need brochure
     - give me pdf of broucher
     - give me broucher in pdf
     - broucher pdf
-    - brouher of glbitm
+    - brouher of pulchowk campus
     - broucher ned
     - need broucher of details
     - latest brochure
@@ -384,12 +352,12 @@ nlu:
     - i need scholarship
     - tell me the procedure to claim scholarship
     - show me scholarship procedure
-    - up scholarship
+    - golden jubliee scholarship
     - how to get scholarship
     - documents required for scholarship
     - tell me the list of documents required for scholarship
     - give me scholarship details
-    - scholarship kya hai
+    - scholarship kasari paune
     - scholarship information
     - how much scholarship can i get in one year
     - one year scholarship ?
@@ -400,8 +368,8 @@ nlu:
     - scholarship last date
     - scholarship details for final year
     - scholarship details for 2nd year
-    - scholarship chaiye muje
-    - mai gareeb hu scholarship chaiye muje
+    - scholarship chaiyo malai
+    - ma gareeb chu scholarship chaiyo
     - eligibility for scholarship
     - form for scholarship
     - link for scholarship
