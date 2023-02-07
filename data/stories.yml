@@ -324,7 +324,7 @@ stories:
   - intent: placement_record_mca
   - action: utter_placement_record_mca
 
-- story: why should i choose pulchowk campus bajaj
+- story: why should i choose pulchowk campus 
   steps:
   - intent: greet
   - action: utter_greet
@@ -541,6 +541,12 @@ stories:
   - intent: regret_abuse_reply
   - action: utter_happy
 
+- story: college exhibtion
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: exhibitions
+  - action: utter_exhibitions
 
 
 

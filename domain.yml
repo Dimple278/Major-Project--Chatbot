@@ -131,6 +131,8 @@ intents:
     use_entities: true
 - why_glbitm_for_placement:
     use_entities: true
+- exhibitions:
+    use_entities: true
 entities:
 - club
 - name
@@ -299,6 +301,8 @@ responses:
   - text: that's not very nice
   utter_reply_why_abuse:
   - text: You are using bad words! Shame on you!
+ utter_exhibitions:
+  - text: Every year numerous exhibitions take place according to various departments at Pulchowk Campus. For further details, click [here](https://locus.pcampus.edu.np/),SAMSARA (https://www.facebook.com/ArchitectureASApulchowk)
 actions:
 - action_clubs
 forms: {}

@@ -1,4 +1,4 @@
-version: "2.0"
+version:  "2.0"
 
 nlu:
 - intent: virtual_tour
@@ -466,3 +466,39 @@ nlu:
     - kosle banako timilai
     - who are your fathers
     - are you born or built
+    
+- intent: exhibitions
+  examples: |
+    - What exhibitions are currently happening in Pulchowk Campus?  
+    - Can you tell me about any upcoming exhibitions in Pulchowk Campus?  
+    - I'm interested in visiting exhibitions in Pulchowk Campus. What can you recommend?  
+    - Do you have information on past exhibitions held in Pulchowk Campus? 
+    - I'd like to know the dates and details of the exhibitions taking place in Pulchowk Campus. 
+    - What kind of exhibitions are held in Pulchowk Campus? 
+    - Are there any permanent exhibitions in Pulchowk Campus that I can visit? 
+    - Can you give me directions to the exhibitions in Pulchowk Campus? 
+    - Is there a schedule of exhibitions in Pulchowk Campus for the next month? 
+    - What's the admission fee for the exhibitions in Pulchowk Campus? 
+    - Pulchowk Campus ma kasto exhibitions hunxan?
+    - Are there any interactive exhibits at the exhibitions in Pulchowk Campus?
+    - Can I bring my children to the exhibitions in Pulchowk Campus?
+    - Do the exhibitions in Pulchowk Campus have a theme?
+    - What is the duration of the exhibitions in Pulchowk Campus?
+    - Can I take pictures at the exhibitions in Pulchowk Campus?
+    - Are the exhibitions in Pulchowk Campus wheelchair accessible?
+    - Are the exhibitions in Pulchowk Campus open on weekends?
+    - What is the operating hours for the exhibitions in Pulchowk Campus?
+    - Can I buy souvenirs at the exhibitions in Pulchowk Campus?
+    - Do the exhibitions in Pulchowk Campus have audio guides?
+    - Can I buy tickets for the exhibitions in Pulchowk Campus in advance?
+    - What is the maximum capacity for the exhibitions in Pulchowk Campus?
+    - Are the exhibitions in Pulchowk Campus pet-friendly?
+    - Can I bring food and drinks to the exhibitions in Pulchowk Campus?
+    - Are the exhibitions in Pulchowk Campus suitable for all ages?
+    - Can I attend a guided tour of the exhibitions in Pulchowk Campus?
+    - Are there any restrictions for visiting the exhibitions in Pulchowk Campus?
+    - Is there a discount for students at the exhibitions in Pulchowk Campus?
+    - Do the exhibitions in Pulchowk Campus have facilities for the differently abled?
+    - Are there any events or activities related to the exhibitions in Pulchowk Campus?
+
+  
